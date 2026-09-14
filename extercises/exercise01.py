@@ -37,6 +37,7 @@ def distinct_words(corpus: list[list[str]]) -> tuple[list[str], int]:
     n_corpus_words = -1
 
     for document in corpus:
+        document = [START_TOKEN] + document + [END_TOKEN]
         for word in document:
             if word not in corpus_words:
                 corpus_words.append(word)
