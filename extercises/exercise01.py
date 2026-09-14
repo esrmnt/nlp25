@@ -1,4 +1,4 @@
-"""Starter code for Assignment 1, Part 1."""
+"""Assignment 1, Part 1."""
 
 import matplotlib.pyplot as plt
 import numpy as np
